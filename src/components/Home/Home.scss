@@ -1,0 +1,16 @@
+@use '../../scss' as *;
+
+.home {
+  background-image: url("../../assets/bg.gif");
+  background-position: center;
+  height: 100vh;
+
+  .search-bar {
+    display: flex;
+    justify-content: center;
+    padding-top: 17rem;
+  }
+}
+
+
+

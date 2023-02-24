@@ -1,0 +1,40 @@
+@use '../../scss' as *;
+
+
+.search-block {
+  background-color: white;
+  height: 4rem;
+  width: 40%;
+  border-radius: 30px;
+
+  .search-form {
+
+
+    input {
+
+      height: 3rem;
+      font-size: 2.5rem;
+      padding-left: 15px;
+      width: 85%;
+      background-color: transparent;
+      border: none;
+    }
+
+    .search-button {
+      font-size: 1.25rem;
+      height: 3rem;
+      width: 3.5rem;
+      border: none;
+      border-radius: 25px;
+      background-color: transparent;
+      &.hover::after {
+
+      }
+    }
+
+
+  }
+}
+
+
+
